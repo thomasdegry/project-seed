@@ -24,6 +24,7 @@
   },
   "browserify": {
     "transform": [
+      "reactify",
       "require-globify",
       "envify"
     ]
@@ -58,11 +59,15 @@
     "node-bourbon": "^4.2.3",
     "node-notifier": "^4.2.1",
     "opn": "^1.0.2",
+    "reactify": "^1.1.1",
     "require-globify": "^1.2.1",
     "semistandard": "^5.0.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  }
 }
